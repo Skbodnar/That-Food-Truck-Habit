@@ -1,0 +1,36 @@
+{
+  "trucks": [
+    {
+      "id": "1569152",
+      "name": "Datam SF LLC dba Anzu To You",
+      "address": "2535 TAYLOR ST",
+      "description": "Asian Fusion - Japanese Sandwiches/Sliders/Misubi",
+      "latitude": 37.805885350100986,
+      "longitude": -122.41594524663745,
+      "coordinates": [37.805885350100986, -122.41594524663745],
+      "website": "https://roaminghunger.com/anzu-to-you/"
+    },
+
+    {
+      "id": "1569145",
+      "name": "Casita Vegana",
+      "address": "Assessors Block 7283/Lot004",
+      "description": "Coffee: Vegan Pastries: Vegan Hot Dogs: Vegan Tamales: Te: Vegan Shakes",
+      "latitude": 37.72188970870838,
+      "longitude": -122.4925212449949,
+      "coordinates": [37.72188970870838, -122.4925212449949],
+      "website": "https://www.yelp.com/biz/casita-vegana-sf-san-francisco"
+    },
+
+    {
+      "id": "1565593",
+      "name": "MOMO INNOVATION LLC",
+      "address": "351 CALIFORNIA ST",
+      "description": "Noodles: Meat & Drinks",
+      "latitude": 37.792870749741496,
+      "longitude": -122.4007474940767,
+      "coordinates": [37.792870749741496, -122.4007474940767]
+     
+    }
+  ]
+}
