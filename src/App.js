@@ -29,29 +29,34 @@ function App() {
           <Marker
             key={truck.id}
             position={truck.coordinates}
+            eventHandlers={{
+              click: () => {
+                setActiveTruck(truck);
+                console.log("onClick works");
+              },
+            }}
+
             // onClick={() => {
-            //   // updating state 
+            //   // updating state
             //   setActiveTruck(truck);
             //   console.log("onClick works!")
             // }}
-          
-            
           ></Marker>
         ))}
-
+        {console.log("this is activeT", activeTruck)}
         {activeTruck && (
           <Popup
+            position={activeTruck.coordinates}
 
-            position={activeTruck.truck.coordinates}
-            // onClose={() => {
-            //   setActiveTruck(null);
-            // }}
+            onClose={() => {
+              setActiveTruck(null);
+            }}
           >
             <div>
-              <h2>{activeTruck.truck.name}</h2>
-              <p>{activeTruck.truck.description}</p>
-              <p>{activeTruck.truck.address}</p>
-              <p>{activeTruck.truck.website}</p>
+              <h2>{activeTruck.name}</h2>
+              <p>{activeTruck.description}</p>
+              <p>{activeTruck.address}</p>
+              <p>{activeTruck.website}</p>
             </div>
           </Popup>
         )}
