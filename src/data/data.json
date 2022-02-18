@@ -51,6 +51,38 @@
   "address": "101 CALIFORNIA ST",
   "description": "Senor Sisig: Filipino fusion food: tacos: burritos: nachos: rice plates. Various beverages.",
   "coordinates": [37.792948952834664,-122.39809861316652]
+},
+
+{
+  "id": "1529950",
+  "name": "Bonito Poke",
+  "address": "400 HOWARD ST",
+  "description": "Bonito Poke Bowls & Various Drinks",
+  "coordinates": [37.78911920766765,-122.39588103933524]
+},
+
+{
+  "id": "1575156",
+  "name": "Papalote Inc.",
+  "address": "60 SPEAR ST",
+  "description": "Mexican; Burritos: Burrito Bowls: Salads",
+  "coordinates": [37.792535988431084, -122.39459319923499]
+},
+
+{
+  "id": "1535606",
+  "name": "Wu Wei LLC dba MoBowl",
+  "address": "75 HOWARD ST",
+  "description": "Various types of meat: veggie: and seafood bowls.",
+  "coordinates": [37.79155786415492, -122.39167149978557]
+},
+
+{
+  "id": "1515285",
+  "name": "FRUITYMANIA",
+  "address": "801 MARKET ST",
+  "description": "Fruit Salads: Fruit Drinks: Can Soda: Water",
+  "coordinates": [37.784990279306456, -122.40567662907203]
 }
 
 
