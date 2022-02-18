@@ -17,7 +17,7 @@ function App() {
         className="leaflet-container"
         //  Starting point when page renders
         center={[37.77949545478787, -122.41927388849264]}
-        zoom={12}
+        zoom={13}
         scrollWheelZoom={false}
       >
         <TileLayer
@@ -47,16 +47,24 @@ function App() {
         {activeTruck && (
           <Popup
             position={activeTruck.coordinates}
-
             onClose={() => {
               setActiveTruck(null);
             }}
           >
             <div>
-              <h2>{activeTruck.name}</h2>
-              <p>{activeTruck.description}</p>
-              <p>{activeTruck.address}</p>
-              <p>{activeTruck.website}</p>
+              <h2>
+                <b>{activeTruck.name}</b>
+              </h2>
+              <p>
+                <b>Food Types:</b>
+                <br />
+                {activeTruck.description}
+              </p>
+              <p>
+                <b>Address:</b>
+                <br />
+                {activeTruck.address}
+              </p>
             </div>
           </Popup>
         )}

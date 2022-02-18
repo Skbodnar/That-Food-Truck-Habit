@@ -7,8 +7,7 @@
       "description": "Asian Fusion - Japanese Sandwiches/Sliders/Misubi",
       "latitude": 37.805885350100986,
       "longitude": -122.41594524663745,
-      "coordinates": [37.805885350100986, -122.41594524663745],
-      "website": "https://roaminghunger.com/anzu-to-you/"
+      "coordinates": [37.805885350100986, -122.41594524663745]
     },
 
     {
@@ -18,8 +17,7 @@
       "description": "Coffee: Vegan Pastries: Vegan Hot Dogs: Vegan Tamales: Te: Vegan Shakes",
       "latitude": 37.72188970870838,
       "longitude": -122.4925212449949,
-      "coordinates": [37.72188970870838, -122.4925212449949],
-      "website": "https://www.yelp.com/biz/casita-vegana-sf-san-francisco"
+      "coordinates": [37.72188970870838, -122.4925212449949]
     },
 
     {
@@ -30,7 +28,31 @@
       "latitude": 37.792870749741496,
       "longitude": -122.4007474940767,
       "coordinates": [37.792870749741496, -122.4007474940767]
-     
-    }
+    },
+
+    {
+      "id": "1509789",
+      "name": "Plaza Garibaldy",
+      "address": "475 CALIFORNIA ST",
+      "description": "Tacos: burritos: quesadillas",
+      "coordinates": [37.792346385148, -122.40238532279395]
+    },
+
+    {
+      "id": "1568971",
+      "name": "Fillmore Square",
+      "address": "1290 FILLMORE ST",
+      "description": "Breakfast and lunch items with a nod to various cultures",
+      "coordinates": [37.78127594842663, -122.43184035948617]
+    },
+{
+  "id": "1568883",
+  "name": "Senor Sisig",
+  "address": "101 CALIFORNIA ST",
+  "description": "Senor Sisig: Filipino fusion food: tacos: burritos: nachos: rice plates. Various beverages.",
+  "coordinates": [37.792948952834664,-122.39809861316652]
+}
+
+
   ]
 }
