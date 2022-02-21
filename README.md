@@ -5,6 +5,12 @@ When the User clicks on a map marker, basic information about that given food tr
 
 Technologies I used include: JavaScript, React and Leaflet.
 
+To run this on your machine:
+- clone the repository
+- npm init -y
+- npm install
+- npm start
+
 A challenge that I ran into was displaying a title on top of the map. 
 This stackoverflow thread was a huge help: https://stackoverflow.com/questions/68305833/how-to-overlay-a-div-on-a-react-leaflet-map
 
